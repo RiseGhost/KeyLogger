@@ -7,7 +7,6 @@ func = clibery.KeyPress
 func.restype = ctypes.c_char_p
 
 hostname = "TheoGeometric" #Put server hostanem HERE
-#hostname = "iPad-de-Jose"
 serverAddressPort   = (socket.gethostbyname(hostname), 200) #or put server IP HERE (IP, PORT)
 bufferSize          = 1024
 # Create a UDP socket at client side
